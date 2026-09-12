@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/flynnsmith/CS-465-Repos#readme",
   "dependencies": {
-    "express": "^5.2.1"
-  },
-  "devDependencies": {}
+    "express": "^5.2.1",
+    "hbs": "^4.3.1"
+  }
 }
