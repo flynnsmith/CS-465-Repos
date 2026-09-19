@@ -1,0 +1,13 @@
+[{
+    "name": "Gale Reef",
+    "image": "reef1.jpg",
+    "description": "Gale Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat."
+},{
+    "name": "Dawho Reef",
+    "image": "reef2.jpg",
+    "description": "Dawho Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat."
+},{
+    "name": "Claire Reef",
+    "image": "reef3.jpg",
+    "description": "Claire Reef Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida. Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat."
+}]

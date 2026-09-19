@@ -17,38 +17,15 @@
 					<div>
 						<div class="body">
 							<h1>Travel</h1>
-							<ul id="sites">
-								<li>
-									<a href="rooms.html"><img src="images/reef1.jpg" alt="Img"></a>
-									<h2><a href="rooms.html">Gale Reef</a></h2>
-									<p>
-										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.
-									</p>
-									<p>
-										Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat.
-									</p>
-								</li>
-								<li>
-									<a href="rooms.html"><img src="images/reef2.jpg" alt="Img"></a>
-									<h2><a href="rooms.html">Dawho Reef</a></h2>
-									<p>
-										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.
-									</p>
-									<p>
-										Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat.
-									</p>
-								</li>
-								<li>
-									<a href="rooms.html"><img src="images/reef3.jpg" alt="Img"></a>
-									<h2><a href="rooms.html">Claire Reef</a></h2>
-									<p>
-										Sed et augue lorem. In sit amet placerat arcu. Mauris volutpat ipsum ac justo mollis vel vestibulum orci gravida.
-									</p>
-									<p>
-										Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat.
-									</p>
-								</li>
-							</ul>
+								{{#each trips}}
+									<li>
+										<a href="rooms.html"><img src="images/{{image}}" alt="Img"></a>
+										<h2><a href="rooms.html">{{name}}</a></h2>
+										<p>
+											{{description}}
+										</p>
+									</li>
+							{{/each}}
 						</div>
 					</div>
 				</div>
