@@ -9,22 +9,20 @@
 <body>
 	<div id="background">
 		<div id="page">
-
 			{{> header }}
-
 			<div id="contents">
 				<div class="box">
 					<div>
 						<div class="body">
 							<h1>Travel</h1>
 								{{#each trips}}
-									<li>
-										<a href="rooms.html"><img src="images/{{image}}" alt="Img"></a>
-										<h2><a href="rooms.html">{{name}}</a></h2>
-										<p>
-											{{description}}
-										</p>
-									</li>
+								<li>
+									<a href="/api/trips/{{code}}"><img src="/images/{{image}}" alt="Img"></a>
+									<h2><a href="/api/trips/{{code}}">{{name}}</a></h2>
+									<p>
+										{{description}}
+									</p>
+								</li>
 							{{/each}}
 						</div>
 					</div>
