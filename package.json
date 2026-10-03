@@ -20,6 +20,7 @@
   "homepage": "https://github.com/flynnsmith/CS-465-Repos#readme",
   "dependencies": {
     "express": "^5.2.1",
-    "hbs": "^4.3.1"
+    "hbs": "^4.3.1",
+    "mongoose": "^9.10.2"
   }
 }
