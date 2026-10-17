@@ -1,10 +1,15 @@
+require('dotenv').config();
+
 const express = require('express');
 const path = require('path');
 const hbs = require('hbs');
+const passport = require('passport');
 
-// Connect to MongoDB and register the Mongoose model
+// Connect to MongoDB and register Mongoose models
 require('./app_api/models/db');
-require('./app_api/models/travlr');
+
+// Configure Passport authentication
+require('./app_api/config/passport');
 
 const app = express();
 const PORT = 3000;
@@ -29,6 +34,9 @@ app.use('/api', cors({
 // Parse JSON and form submissions
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Initialize Passport authentication
+app.use(passport.initialize());
 
 app.use('/', indexRouter);
 app.use('/travel', travelRouter);
